@@ -1,4 +1,4 @@
-const { clear } = require('console');
+const log= require('./logge');
 const os = require('os');
 
 setInterval(()=>{
@@ -15,7 +15,9 @@ setInterval(()=>{
     }
   
     console.clear()
+    console.log(' ========RODANO=======')
     console.table(stats)
+    log(`${JSON.stringify(stats)}\n`)
 
 },1000)
 
