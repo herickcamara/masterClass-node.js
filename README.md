@@ -3,5 +3,4 @@
 
 Aqui temos uma applicasão com node.js 
 
-que verifica a mem
-oria do computado atualizando a cada minuto
+que verifica a memoria do computado atualizando a cada minuto
